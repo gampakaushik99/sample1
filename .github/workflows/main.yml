@@ -6,6 +6,6 @@ jobs:
       steps:
           - run: |
                    echo "hello"
-                   ls
-                   python test.py
+                   dir
+                   #python test.py
 
