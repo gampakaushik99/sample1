@@ -6,6 +6,6 @@ jobs:
       steps:
           - run: |
                    echo "hello"
-                   dir
+                   ll
                    #python test.py
 
