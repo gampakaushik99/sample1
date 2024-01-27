@@ -6,4 +6,6 @@ jobs:
       steps:
           - run: |
                    echo "hello"
+                   ls
                    python test.py
+
