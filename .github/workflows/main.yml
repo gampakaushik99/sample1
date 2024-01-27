@@ -12,4 +12,6 @@ jobs:
           python-version: '3.9'
       - name: Running Python Script
         run: python test.py
+      - name: Printing the ENV Variable
+        run: echo ${{ secrets.RUNNER_TAG }}
 
