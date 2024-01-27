@@ -17,5 +17,5 @@ jobs:
       - name: Printing the ENV Variable
         run: echo "${{ secrets.RUNNER_TAG }}"
       - name: Printing the ENV Variable
-        run: echo "${{ var.RUNNER_TAG }}"
+        run: echo "${{ RUNNER_TAG }}"
 
