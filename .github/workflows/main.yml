@@ -1,4 +1,4 @@
-name: project1
+name: Project CI/CD Yaml
 on: workflow_dispatch
 jobs:
     calling_workflow_from_templates:
