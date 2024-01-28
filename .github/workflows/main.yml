@@ -27,7 +27,7 @@ jobs:
       steps:
           - name: Printing the ENV Variable
             run: |
-              - echo "$RDS_TECHNOLOGY"
-              - echo "{{ env.RDS_TECHNOLOGY }}"
+               echo "$RDS_TECHNOLOGY"
+               echo "{{ env.RDS_TECHNOLOGY }}"
 
 
