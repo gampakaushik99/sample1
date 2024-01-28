@@ -1,4 +1,4 @@
-name: project1
+name: Run Python Script
 on: workflow_dispatch
 jobs:
     Running_Python_Script:
