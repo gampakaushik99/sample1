@@ -1,7 +1,7 @@
 name: project1
 on: workflow_dispatch
-env:
-  RDS_TECHNOLOGY: 'DOT-NET'
+#env:
+ # RDS_TECHNOLOGY: 'DOT-NET'
 jobs:
     #Running_Python_Script:
       #env:
