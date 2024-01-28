@@ -1,0 +1,15 @@
+name: project1
+on: workflow_dispatch
+jobs:
+    Running_Python_Script:
+      runs-on: ubuntu-latest
+      steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
+      - name: Set Up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Running Python Script
+        run: python test.py
+
