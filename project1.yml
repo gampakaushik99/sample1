@@ -1,9 +1,0 @@
-name: project1
-on: workflow_dispatch
-jobs:
-    Running Python Script:
-      runs-on: ubuntu-latest
-      steps:
-          - run: |
-                   echo "hello"
-                   python test.py
