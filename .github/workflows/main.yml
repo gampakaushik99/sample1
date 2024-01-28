@@ -21,15 +21,7 @@ jobs:
       #- name: Printing the ENV Variable
       #  run: echo "$RUNNER_TAG"
     calling_workflow_from_templates:
-      runs-on: ubuntu-latest
+      #runs-on: ubuntu-latest
       #uses: octo-org/example-repo/.github/workflows/reusable-workflow.yml@main
-      #uses: gampakaushik99/templates/.github/workflows/test.yml@main
-      steps:
-          - name: Printing the ENV Variable
-            run: |
-               echo "$RDS_TECHNOLOGY"
-               echo ${{ vars.RDS_TECHNOLOGY }}
-               echo "${{ vars.RDS_TECHNOLOGY }}"
-               $(echo "$RDS_TECHNOLOGY")
-               $(echo ${{ vars.RDS_TECHNOLOGY }})
-               $(echo "${{ vars.RDS_TECHNOLOGY }}")
+      uses: gampakaushik99/templates/.github/workflows/test.yml@main
+
