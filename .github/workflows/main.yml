@@ -21,7 +21,5 @@ jobs:
       #- name: Printing the ENV Variable
       #  run: echo "$RUNNER_TAG"
     calling_workflow_from_templates:
-      #runs-on: ubuntu-latest
-      #uses: octo-org/example-repo/.github/workflows/reusable-workflow.yml@main
-      uses: gampakaushik99/templates/.github/workflows/blackduck.yml@main
+      uses: gampakaushik99/templates/.github/workflows/uncontrolled.yml@main
 
