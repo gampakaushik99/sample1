@@ -1,25 +1,5 @@
 name: project1
 on: workflow_dispatch
-#env:
- # RDS_TECHNOLOGY: 'DOT-NET'
 jobs:
-    #Running_Python_Script:
-      #env:
-       # RUNNER_TAG: ${{ secrets.RUNNER_TAG }}
-      #runs-on: ubuntu-latest
-      #steps:
-      #- name: checkout repository
-      #  uses: actions/checkout@v2
-      #- name: Set Up Python
-      #  uses: actions/setup-python@v2
-      #  with:
-      #    python-version: '3.9'
-      #- name: Running Python Script
-      #  run: python test.py
-      #- name: Printing the ENV Variable
-      #  run: echo "${{ secrets.RUNNER_TAG }}"
-      #- name: Printing the ENV Variable
-      #  run: echo "$RUNNER_TAG"
     calling_workflow_from_templates:
       uses: gampakaushik99/templates/.github/workflows/uncontrolled.yml@main
-
